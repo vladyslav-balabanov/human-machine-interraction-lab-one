@@ -56,5 +56,7 @@ public class AppointmentForm extends FormLayout {
         setColspan(descriptionField, 2);
         setColspan(submit, 2);
         add(submit);
+
+        getStyle().set("background-color", "orange").setBorder("2px solid black");
     }
 }
